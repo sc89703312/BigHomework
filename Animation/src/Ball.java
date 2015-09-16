@@ -6,7 +6,7 @@ class Ball {
 	private static final int YSIZE = 30; //小球的高度
 	private int x = 0; //小球的起始坐标x 
 	private int y = 0; //小球的起始坐标y
-	private int dx = 5; //小球x 坐标增量 
+	private int dx = 1; //小球x 坐标增量 
 	private int dy = 1; //小球y 坐标增量
 	public Ball(Component c) { //构造函数，构建一个默认颜色的小球 
 		canvas = c;
