@@ -2,9 +2,9 @@ import java.awt.*;
 class Ball {
 	private Component canvas; //画小球的面板 
 	private Color color; //小球的颜色
-	private static final int XSIZE = 30; //小球的宽度
+    private static final int XSIZE = 30; //小球的宽度
 	private static final int YSIZE = 30; //小球的高度
-	private int x = 0; //小球的起始坐标x 
+//	private int x = 0; //小球的起始坐标x 
 	private int y = 0; //小球的起始坐标y
 	private int dx = 1; //小球x 坐标增量 
 	private int dy = 1; //小球y 坐标增量
